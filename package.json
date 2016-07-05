@@ -1,8 +1,8 @@
 {
-  "name": "electron-react-boilerplate",
-  "productName": "ElectronReact",
-  "version": "0.10.0",
-  "description": "Electron application boilerplate based on React, React Router, Webpack, React Hot Loader for rapid application development",
+  "name": "slackernews",
+  "productName": "SlackerNews",
+  "version": "0.0.1",
+  "description": "HackerNews Desktop App based off of electron-react-boilerplate",
   "main": "main.js",
   "scripts": {
     "test": "cross-env NODE_ENV=test mocha --compilers js:babel-register --recursive --require ./test/setup.js test/**/*.spec.js",
@@ -110,7 +110,9 @@
     "react-router-redux": "^4.0.4",
     "redux": "^3.5.2",
     "redux-thunk": "^2.1.0",
-    "source-map-support": "^0.4.0"
+    "source-map-support": "^0.4.0",
+    "firebase": "^2.4.0",
+    "reactfire": "^1.0.0"
   },
   "devEngines": {
     "node": "4.x || 5.x || 6.x",
