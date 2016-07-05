@@ -45,7 +45,7 @@ const Story = React.createClass({
                     <a href="#" onClick={ this.handleTitleClicked }>
                         <h3>{ this.state.story.title }</h3>
                     </a>
-                    <p>Score: {this.state.story.score } by: { this.state.story.by }</p>
+                    <p>Score: {this.state.story.score } by: { this.state.story.by } | { this.state.story.descendants || 0 } comments</p>
                 </div>
             );
         }

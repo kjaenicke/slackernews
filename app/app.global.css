@@ -2,9 +2,9 @@ body {
   position: relative;
   color: white;
   height: 100vh;
-  background-color: #ff6600;
   font-family: Helvetica, Helvetica Neue;
   overflow-y: scroll;
+  margin: 0px;
 }
 
 h2 {
@@ -29,13 +29,60 @@ a {
   text-decoration: none;
 }
 
+.slacker-news {
+}
+
 .spinner-wrapper {
+    color: #ff6600;
     margin: 0px auto;
     text-align: center;
     margin-top: 30%;
 }
 
 .spinner {}
+
+.sidebar {
+    width: 8%;
+    height: 100vh;
+    float: left;
+    background-color: #ff6600;
+    color: #333;
+    text-align: center;
+}
+
+.sidebar .sidebar-logo {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.sidebar a {
+    display: block;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.sidebar a.active {
+    color: white;
+}
+
+.sidebar a:hover {
+    color: white;
+}
+
+
+.sidebar p {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.content {
+    width: 92%;
+    height: 100vh;
+    overflow: scroll;
+    float:right;
+}
 
 a:hover {
   opacity: 1;
